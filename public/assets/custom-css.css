@@ -1,0 +1,114 @@
+.select2-container--default .select2-selection--single {
+    background-color: #fff;
+    border: 1px solid rgba(54, 54, 54, 0.1);
+    border-radius: 4px;
+    height: 45px !important;
+}
+
+.custom-range {
+    width: 100%;
+    -webkit-appearance: none;
+    appearance: none;
+    background: #ddd;
+    height: 6px;
+    border-radius: 5px;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity .2s;
+}
+
+.custom-range:hover {
+    opacity: 1;
+}
+
+.custom-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #ff5421;
+    cursor: pointer;
+}
+
+.custom-range::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #ff5421;
+    cursor: pointer;
+}
+
+.range-value {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #ff5421;
+}
+
+.form-group {
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group input[type="range"] {
+    margin-top: 10px;
+}
+
+.video-container {
+    text-align: center;
+    position: relative;
+}
+
+#video,
+#photo {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    border: 2px solid #ddd;
+    display: block;
+}
+
+#photo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+}
+
+#canvas {
+    display: none;
+}
+
+#capture-btn,
+#retake-btn,
+#use-photo-btn {
+    margin-top: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    background-color: #ff5421;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #e67e22;
+}
